@@ -1,6 +1,7 @@
 package com.eduardoes;
 
 import com.eduardoes.news.Examples;
+import com.eduardoes.news.VoiceMessage;
 
 /**
  * Hello world!
@@ -12,10 +13,16 @@ public class App
 
         var examples = new Examples();
 
-        //examples.textBlocks();
+       // examples.textBlocks();
         //examples.switchExpressions();
        // examples.recordPojo();
-        examples.recordClone();;
+       // examples.recordClone();;
+       // examples.patterMatchingInstansOf();
+       // examples.sealedExample();
+       //examples.patternMatchingSwitch(new VoiceMessage());
+        //examples.foreingMemoryAccessAPI();
+        // examples.hiddenClassExample();
+        examples.randomGeneratorExample();
 
     }
 }
